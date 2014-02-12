@@ -35,6 +35,7 @@ class qa_tos_admin_form {
 			'tos_content' => 'tos_enable',
 			'tos_serverside' => 'tos_enable',
 			'tos_static' => 'tos_enable',
+			'tos_error' => 'tos_enable',
 		));
 		qa_set_display_rules($qa_content, array(
 			'tos_static' => 'tos_serverside',

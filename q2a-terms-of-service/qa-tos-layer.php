@@ -42,7 +42,8 @@ class qa_html_theme_layer extends qa_html_theme_base {
 						'error' => qa_html(@$error),
 						'type' => 'checkbox',
 				);
-				if (!empty(qa_opt('tos_content'))){
+				$tos_content = qa_opt('tos_content');
+				if (!(empty($tos_content))){
 					$this->content['form']['fields']['tos_content']=array(
 						'tags' => 'NAME="tos_content" ID="tos_content" READONLY',
 						'type' => 'textarea',
