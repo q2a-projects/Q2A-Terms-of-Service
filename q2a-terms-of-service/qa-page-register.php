@@ -170,7 +170,8 @@
 			'error' => qa_html(@$errors['TOS']),
 			'type' => 'checkbox',
 		);
-		if (!empty(qa_opt('tos_content'))){
+		$tos_content = qa_opt('tos_content');
+		if (!(empty($tos_content))){
 			$qa_content['form']['fields']['tos_content']=array(
 				'tags' => 'NAME="tos_content" ID="tos_content" READONLY',
 				'type' => 'textarea',
