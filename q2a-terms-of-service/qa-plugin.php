@@ -5,7 +5,7 @@
 	Plugin URI: https://github.com/Towhidn/Q2A-Terms-of-Service
 	Plugin Update Check URI: https://github.com/Towhidn/Q2A-Terms-of-Service/master/qa-plugin.php
 	Plugin Description: Admin can add "Term of Service" or "Terms & Condition" to registration page
-	Plugin Version: 1.0.0
+	Plugin Version: 1.0.1
 	Plugin Date: 2014-02-11
 	Plugin Author: QA-Themes.com
 	Plugin Author URI: http://QA-Themes.com

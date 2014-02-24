@@ -166,7 +166,7 @@
 		$qa_content['form']['fields']['tos']=array(	
 			'label' => qa_opt('tos_checkbox_label'),
 			'tags' => 'NAME="TOS" ID="TOS"',
-			'value' => qa_html(@$TOS),
+			'value' => false,
 			'error' => qa_html(@$errors['TOS']),
 			'type' => 'checkbox',
 		);
