@@ -8,12 +8,15 @@ this plugin add validation checkbox for "Term of Service" or "Terms & Condition"
 2. Upload it to your Q2A's plugin directory (`qa-plugins/q2a-terms-of-service`).
 3. In Q2A go to **Admin > plugins > Terms of Service** and choose options, then save the form.
 
-### important installation note
+### Q2A Versions
+Q2A 1.7 comes with a built-in option to enable this feature inside Q2A itself. so this project will no longer be continued. however it's still only plugin with this feature for Q2A 1.6 and older versions of question2answer.
+
+### Important installation note
 This plugin can use Client Side(JavaScript) and Server Side(PHP) Validation.
 if you enable  **Check validation in server side instead of using JavaScript** option in plugin's settings, it overrides whole registration page to use Server Side Validation! it means that if you are using a version of Q2A other than 1.6.x, you might face some problems with it. so I suggest that you *disable this option*.
 
 ## Author
-This free plugin is developed by [Towhid Nategheian](http://TowhidN.com), from [Q2A Themes](http://QA-Themes.com)
+This free plugin is developed by [Towhid](http://TowhidN.com "Towhid Nategheian"), from [QA-Themes.com](http://QA-Themes.com "Question2Answer Service Provider"). we create free and open source Question2Answer Themes and plugins and offer professional services such as design and development for this platform. 
 
 ### Copyright
 this plugin and all it's source code is [Copylefted](http://en.wikipedia.org/wiki/Copyleft).
@@ -23,4 +26,4 @@ This product is a free and is published without any warranties. if you find any 
 
 ### About Q2A
 
-**[Question2Answer](http://qa-themes.com/question2answer)** is a free and open source PHP script for creating online Question and Answer communities.
+**[Question2Answer](http://qa-themes.com/question2answer)** is a free and open source PHP script for creating online Question and Answer communities. For more information visit Question2Answer's official site at [question2answer.org](http://www.question2answer.org/)
